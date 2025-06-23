@@ -1,6 +1,12 @@
+import Banner from "../Banner/Banner";
+import HowItWorks from "../HowItWorks/HowItWorks";
+
 const Home = () => {
   return (
-    <div><h1>This is Home.</h1></div>
-  )
-}
-export default Home
+    <div>
+      <Banner />
+      <HowItWorks />
+    </div>
+  );
+};
+export default Home;
